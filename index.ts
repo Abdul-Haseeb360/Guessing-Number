@@ -4,7 +4,7 @@ import inquirer from "inquirer";
 
 var randomNumber = Math.floor(Math.random()*5 + 1);
 
-
+console.log("Welcome to Decent Game")
 
 const answer = await inquirer.prompt([
   {
